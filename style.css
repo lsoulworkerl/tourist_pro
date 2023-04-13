@@ -1,33 +1,75 @@
-html{
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
 }
 
-body{
-    min-height:100%;
-    margin: 0 0;
+html{
+    overflow-x: hidden;
 }
 
 .first_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 330px;
     margin: 0px;
+    background-image: url("./img/bg.jpg");
+}
+
+.first_block h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 70px;
+    color: #219fa3;
+    box-sizing: content-box;
+}
+
+.phone {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 32px;
+    color: #ffffff;
+    box-sizing: content-box;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.main_link {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-right: 60px;
+    color: #ffffff;
+}
+
+.main_link:last-child {
+    padding-right: 0px;
 }
 
 .second_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 440px;
     margin: 0px;
+    background-color: #f1f1f1;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 21px;
+    padding-top: 60px;
+    text-transform: uppercase;
+    color: #219fa3;
 }
 
 .third_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 330px;
     margin: 0px;
@@ -35,15 +77,14 @@ body{
 
 .fourth_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 170px;
     margin: 0px;
+    background-color: #f1f1f1;
 }
 
 .fifth_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 390px;
     margin: 0px;
@@ -51,7 +92,6 @@ body{
 
 .sixth_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 250px;
     margin: 0px;
@@ -59,7 +99,6 @@ body{
 
 .seventh_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 750px;
     margin: 0px;
@@ -67,7 +106,6 @@ body{
 
 .eighth_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 230px;
     margin: 0px;
@@ -75,7 +113,6 @@ body{
 
 .ninth_block {
     position: relative;
-    border: solid;
     width: 100%;
     height: 180px;
     margin: 0px;
