@@ -60,6 +60,24 @@ html{
     background-color: #f1f1f1;
 }
 
+.map {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.map_block {
+    padding-right: 220px;
+}
+
+.map_block p {
+    padding-top: 25px;
+}
+
+.map_block:last-child {
+    padding-right: 0px;
+}
 .subtitle {
     text-align: center;
     font-size: 21px;
@@ -73,6 +91,13 @@ html{
     width: 100%;
     height: 330px;
     margin: 0px;
+}
+
+.third_block p {
+    text-align: center;
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-top: 50px;
 }
 
 .fourth_block {
@@ -90,6 +115,32 @@ html{
     margin: 0px;
 }
 
+.reviews {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.review {
+    max-width: 33.33%;
+    height: 390px;
+    background-color: #219fa3;
+}
+
+.review_2 {
+    max-width: 33.33%;
+    height: 390px;
+    background-color: #414a4f; 
+}
+
+.fifth_block p {
+    color: #ffffff;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
 .sixth_block {
     position: relative;
     width: 100%;
@@ -102,6 +153,7 @@ html{
     width: 100%;
     height: 750px;
     margin: 0px;
+    background-color: #f1f1f1;
 }
 
 .eighth_block {
@@ -116,4 +168,5 @@ html{
     width: 100%;
     height: 180px;
     margin: 0px;
+    background-color: #414a4f;
 }
