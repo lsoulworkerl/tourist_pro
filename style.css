@@ -1,0 +1,82 @@
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    min-height:100%;
+    margin: 0 0;
+}
+
+.first_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 330px;
+    margin: 0px;
+}
+
+.second_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 440px;
+    margin: 0px;
+}
+
+.third_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 330px;
+    margin: 0px;
+}
+
+.fourth_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 170px;
+    margin: 0px;
+}
+
+.fifth_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 390px;
+    margin: 0px;
+}
+
+.sixth_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 250px;
+    margin: 0px;
+}
+
+.seventh_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 750px;
+    margin: 0px;
+}
+
+.eighth_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 230px;
+    margin: 0px;
+}
+
+.ninth_block {
+    position: relative;
+    border: solid;
+    width: 100%;
+    height: 180px;
+    margin: 0px;
+}
