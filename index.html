@@ -9,17 +9,17 @@
             <p class="phone">0 (000) 000-00-00</p>
             <div class="links">
                 <div class="main_link">
-                    <p>Акции</p>
+                    <a href="#sales">Акции</a>
                 </div>
                 <div class="main_link">
-                    <p>Поиск</p>
+                    <a href="#search">Поиск</a>
                 </div>
                 <div class="main_link">
-                    <p>Управление бронированием</p>
+                    <a href="#book">Управление бронированием</a>
                 </div>
             </div>
         </div>
-        <div class="second_block">
+        <div class="second_block" id="book">
             <h1 class="subtitle">КАК ЗАБРОНИРОВАТЬ ТУРПОХОД?</h1>
             <div class="map">
                 <div class="map_block">
@@ -90,31 +90,69 @@
                 </div>
             </div>
         </div>
-        <div class="sixth_block">
+        <div class="sixth_block" id="search">
             <h1 class="subtitle">ПОИСК ТУРА</h1>
+            <div class="select_field">
+                <div class="field">
+                    <p>Выберите регион</p>
+                    <select class="region">
+                        <option value="">Выберите регион</option>
+                        <option value="Маями">Маями</option>
+                        <option value="Бразилия">Бразилия</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <p>Укажите дату начала тура</p>
+                    <input type="date" id="date" class="date">
+                </div>
+                <div class="field">
+                    <p>Количество человек</p>
+                    <select class="count">
+                        <option value="">Количество человек</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="4">4</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <p>Выберите уровень подготовки</p>
+                    <select class="level">
+                        <option value="">Выберите уровень подготовки</option>
+                        <option value="новичок">новичок</option>
+                        <option value="опытный">опытный</option>
+                        <option value="профи">профи</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <a href="#">
+                        <button class="accept">Найти</button>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="seventh_block">
+        <div class="seventh_block" id="sales">
             <h1 class="subtitle">АКЦИИ</h1>
             <div class="detail_block">
                 <div class="detail">
                     <img src="./img/sale1.jpg"/>
                     <p>Компенсация за отдых до 20000 рублей!</p>
                     <a href="#">
-                        <button>ПОДРОБНЕЕ</button>
+                        <button class="detail_button">ПОДРОБНЕЕ</button>
                     </a>
                 </div>
                 <div class="detail">
                     <img src="./img/sale2.jpg"/>
                     <p>Скидка 40% для пенсионеров</p>
                     <a href="#">
-                        <button>ПОДРОБНЕЕ</button>
+                        <button class="detail_button">ПОДРОБНЕЕ</button>
                     </a>
                 </div>
                 <div class="detail">
                     <img src="./img/sale3.jpg"/>
                     <p>Скидки студентам на туры выходного дня</p>
                     <a href="#">
-                        <button>ПОДРОБНЕЕ</button>
+                        <button class="detail_button">ПОДРОБНЕЕ</button>
                     </a>
                 </div>
             </div>
@@ -122,22 +160,22 @@
         <div class="eighth_block">
             <h1 class="subtitle">ПОДПИШИСЬ НА ЗАКРЫТЫЕ АКЦИИ</h1>
             <div class="inside_input">
-                <input value="Введите email"/>
+                <input class="email_field" value="Введите email"/>
                 <a href="#">
-                    <button>ПОДПИСАТЬСЯ</button>
+                    <button class="detail_button">ПОДПИСАТЬСЯ</button>
                 </a>
             </div>
         </div>
         <div class="ninth_block">
             <div class="links">
                 <div class="main_link">
-                    <p>Акции</p>
+                    <a href="#sales">Акции</a>
                 </div>
                 <div class="main_link">
-                    <p>Поиск</p>
+                    <a href="#search">Поиск</a>
                 </div>
                 <div class="main_link">
-                    <p>Управление бронированием</p>
+                    <a href="#book">Управление бронированием</a>
                 </div>
             </div>
             <p class="phone">0 (000) 000-00-00</p>
